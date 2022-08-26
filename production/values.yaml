@@ -11,7 +11,7 @@ imagePullSecrets: []
 userService:
   enabled: true
   name: "user-service"
-  image: "pttgcdevopsacr09.azurecr.io/user-service" #Change this `pttgcdevopsacr02.azureecr.io` to your own acr
+  image: "pttgcdevopsarc09.azurecr.io/user-service" #Change this `pttgcdevopsacr02.azureecr.io` to your own acr
   tag: "dfdada20817eed41632d32706bf66c82c72b8a68"
   pullPolicy: IfNotPresent
   servicePort: 8080
